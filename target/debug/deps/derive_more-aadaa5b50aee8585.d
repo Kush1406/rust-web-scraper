@@ -1,0 +1,10 @@
+/home/elliot/rust_claude/rust-web-scraper/target/debug/deps/derive_more-aadaa5b50aee8585.d: /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/lib.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/syn_compat.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/utils.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/add_assign_like.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/add_helpers.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/add_like.rs
+
+/home/elliot/rust_claude/rust-web-scraper/target/debug/deps/libderive_more-aadaa5b50aee8585.so: /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/lib.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/syn_compat.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/utils.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/add_assign_like.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/add_helpers.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/add_like.rs
+
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/lib.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/syn_compat.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/utils.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/add_assign_like.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/add_helpers.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/add_like.rs:

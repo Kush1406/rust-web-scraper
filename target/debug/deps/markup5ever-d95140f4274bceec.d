@@ -1,0 +1,15 @@
+/home/elliot/rust_claude/rust-web-scraper/target/debug/deps/markup5ever-d95140f4274bceec.d: /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.12.1/lib.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.12.1/data/mod.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.12.1/interface/mod.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.12.1/interface/tree_builder.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.12.1/serialize.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.12.1/util/buffer_queue.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.12.1/util/smallcharset.rs /home/elliot/rust_claude/rust-web-scraper/target/debug/build/markup5ever-b0dcd2b075d1c7c2/out/generated.rs /home/elliot/rust_claude/rust-web-scraper/target/debug/build/markup5ever-b0dcd2b075d1c7c2/out/named_entities.rs
+
+/home/elliot/rust_claude/rust-web-scraper/target/debug/deps/libmarkup5ever-d95140f4274bceec.rmeta: /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.12.1/lib.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.12.1/data/mod.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.12.1/interface/mod.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.12.1/interface/tree_builder.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.12.1/serialize.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.12.1/util/buffer_queue.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.12.1/util/smallcharset.rs /home/elliot/rust_claude/rust-web-scraper/target/debug/build/markup5ever-b0dcd2b075d1c7c2/out/generated.rs /home/elliot/rust_claude/rust-web-scraper/target/debug/build/markup5ever-b0dcd2b075d1c7c2/out/named_entities.rs
+
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.12.1/lib.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.12.1/data/mod.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.12.1/interface/mod.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.12.1/interface/tree_builder.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.12.1/serialize.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.12.1/util/buffer_queue.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/markup5ever-0.12.1/util/smallcharset.rs:
+/home/elliot/rust_claude/rust-web-scraper/target/debug/build/markup5ever-b0dcd2b075d1c7c2/out/generated.rs:
+/home/elliot/rust_claude/rust-web-scraper/target/debug/build/markup5ever-b0dcd2b075d1c7c2/out/named_entities.rs:
+
+# env-dep:OUT_DIR=/home/elliot/rust_claude/rust-web-scraper/target/debug/build/markup5ever-b0dcd2b075d1c7c2/out

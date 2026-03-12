@@ -1,0 +1,13 @@
+/home/elliot/rust_claude/rust-web-scraper/target/debug/deps/yoke-6104013f332fc109.d: /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/lib.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/cartable_ptr.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/either.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/kinda_sorta_dangling.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/macro_impls.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/utils.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/yoke.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/yokeable.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/zero_from.rs
+
+/home/elliot/rust_claude/rust-web-scraper/target/debug/deps/libyoke-6104013f332fc109.rmeta: /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/lib.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/cartable_ptr.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/either.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/kinda_sorta_dangling.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/macro_impls.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/utils.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/yoke.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/yokeable.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/zero_from.rs
+
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/lib.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/cartable_ptr.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/either.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/kinda_sorta_dangling.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/macro_impls.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/utils.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/yoke.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/yokeable.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/yoke-0.8.1/src/zero_from.rs:

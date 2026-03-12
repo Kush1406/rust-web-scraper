@@ -1,0 +1,11 @@
+/home/elliot/rust_claude/rust-web-scraper/target/debug/deps/futures_task-930a62ed5727c140.d: /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.32/src/lib.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.32/src/spawn.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.32/src/arc_wake.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.32/src/waker.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.32/src/waker_ref.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.32/src/future_obj.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.32/src/noop_waker.rs
+
+/home/elliot/rust_claude/rust-web-scraper/target/debug/deps/libfutures_task-930a62ed5727c140.rmeta: /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.32/src/lib.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.32/src/spawn.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.32/src/arc_wake.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.32/src/waker.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.32/src/waker_ref.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.32/src/future_obj.rs /home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.32/src/noop_waker.rs
+
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.32/src/lib.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.32/src/spawn.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.32/src/arc_wake.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.32/src/waker.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.32/src/waker_ref.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.32/src/future_obj.rs:
+/home/elliot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.32/src/noop_waker.rs:
