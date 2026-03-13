@@ -1,1 +1,1 @@
-/home/elliot/rust_claude/rust-web-scraper/target/debug/rust-web-scraper: /home/elliot/rust_claude/rust-web-scraper/src/main.rs /home/elliot/rust_claude/rust-web-scraper/src/models.rs /home/elliot/rust_claude/rust-web-scraper/src/scraper.rs
+/home/elliot/rust_claude/rust-web-scraper/target/debug/rust-web-scraper: /home/elliot/rust_claude/rust-web-scraper/src/main.rs /home/elliot/rust_claude/rust-web-scraper/src/models.rs /home/elliot/rust_claude/rust-web-scraper/src/parser.rs /home/elliot/rust_claude/rust-web-scraper/src/scraper.rs
