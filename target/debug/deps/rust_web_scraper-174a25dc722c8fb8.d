@@ -1,8 +1,9 @@
-/home/elliot/rust_claude/rust-web-scraper/target/debug/deps/rust_web_scraper-174a25dc722c8fb8.d: src/main.rs src/models.rs src/parser.rs src/scraper.rs
+/home/elliot/rust_claude/rust-web-scraper/target/debug/deps/rust_web_scraper-174a25dc722c8fb8.d: src/main.rs src/models.rs src/parser.rs src/scraper.rs src/writer.rs
 
-/home/elliot/rust_claude/rust-web-scraper/target/debug/deps/librust_web_scraper-174a25dc722c8fb8.rmeta: src/main.rs src/models.rs src/parser.rs src/scraper.rs
+/home/elliot/rust_claude/rust-web-scraper/target/debug/deps/librust_web_scraper-174a25dc722c8fb8.rmeta: src/main.rs src/models.rs src/parser.rs src/scraper.rs src/writer.rs
 
 src/main.rs:
 src/models.rs:
 src/parser.rs:
 src/scraper.rs:
+src/writer.rs:
