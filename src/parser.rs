@@ -1,88 +1,110 @@
-use core::time;
-use std::io::SeekFrom;
-
 use crate::models::Post;
 use anyhow::Result;
 use scraper::{Html, Selector};
 
 pub fn parse_posts(html: &str) -> Result<Vec<Post>> {
     let document = Html::parse_document(html);
-    let post_selector = Selector::parse("tr.athing").unwrap();
 
-    let title_selector = Selector::parse("tr.athing > span.titleline > a").unwrap();
-    let url_selector = Selector::parse("tr.athing > span.titleline > a[href]").unwrap();
-    let points_selector =
-        Selector::parse("tr.athing + tr > td.subtext > span.subline > span.score").unwrap();
-    let comments_selector = Selector::parse("tr.athing + tr > td.subtext > a").unwrap();
-    let author_selector =
-        Selector::parse("tr.athing + tr > td.subtext > span.subline > a").unwrap();
-    let time_selector =
-        Selector::parse("tr.athing + tr > td.subtext > span.subline > span.age").unwrap();
+    let post_selector = Selector::parse("tr").unwrap();
+    let title_selector = Selector::parse("span.titleline > a").unwrap();
+    let subtext_selector = Selector::parse("td.subtext").unwrap();
+    let points_selector = Selector::parse("span.score").unwrap();
+    let author_selector = Selector::parse("a.hnuser").unwrap();
+    let time_selector = Selector::parse("span.age a").unwrap();
+    let link_selector = Selector::parse("a").unwrap();
 
+    let all_rows: Vec<_> = document.select(&post_selector).collect();
     let mut posts = Vec::new();
-    for post_element in document.select(&post_selector) {
-        let title = post_element
+
+    for (i, row) in all_rows.iter().enumerate() {
+        let class = row.value().attr("class").unwrap_or("");
+        let has_athing = class.split_whitespace().any(|c| c == "athing");
+        if !has_athing {
+            continue;
+        }
+
+        let title = row
             .select(&title_selector)
             .next()
-            .map(|e| e.inner_html())
+            .map(|e| e.text().collect::<String>())
             .unwrap_or_default();
 
-        let url = post_element
-            .select(&url_selector)
+        let url = row
+            .select(&title_selector)
             .next()
             .and_then(|e| e.value().attr("href"))
-            .unwrap_or_default()
-            .to_string();
+            .map(|s| s.to_string());
 
-        let points = post_element
-            .select(&points_selector)
-            .next()
-            .map(|e| {
-                e.inner_html()
-                    .split_whitespace()
+        let metadata_row = all_rows.get(i + 1);
+
+        // DEBUG: Print what we're looking at
+        println!("\n--- Post at index {} ---", i);
+        println!("Post class: {}", class);
+        println!("Title: {}", title);
+
+        if let Some(meta_row) = metadata_row {
+            let meta_class = meta_row.value().attr("class").unwrap_or("(no class)");
+            println!("Next row class: {}", meta_class);
+
+            // Print the HTML of the next row
+            println!(
+                "Next row HTML preview: {}",
+                &meta_row.html()[..200.min(meta_row.html().len())]
+            );
+        } else {
+            println!("No next row!");
+        }
+
+        let mut points = None;
+        let mut comments = None;
+        let mut author = None;
+        let mut time = None;
+
+        if let Some(meta_row) = metadata_row {
+            if let Some(subtext) = meta_row.select(&subtext_selector).next() {
+                points = subtext.select(&points_selector).next().and_then(|e| {
+                    let text = e.text().collect::<String>();
+                    text.split_whitespace()
+                        .next()
+                        .and_then(|s| s.parse::<u32>().ok())
+                });
+
+                author = subtext
+                    .select(&author_selector)
                     .next()
-                    .unwrap_or("0")
-                    .parse::<u32>()
-                    .unwrap_or(0)
-            })
-            .unwrap_or(0);
+                    .map(|e| e.text().collect::<String>());
 
-        let comments = post_element
-            .select(&comments_selector)
-            .next()
-            .map(|e| {
-                e.inner_html()
-                    .split_whitespace()
+                time = subtext
+                    .select(&time_selector)
                     .next()
-                    .unwrap_or("0")
-                    .parse::<u32>()
-                    .unwrap_or(0)
-            })
-            .unwrap_or(0);
+                    .map(|e| e.text().collect::<String>());
 
-        let author = post_element
-            .select(&author_selector)
-            .next()
-            .map(|e| e.inner_html())
-            .unwrap_or_default();
+                for link in subtext.select(&link_selector) {
+                    let text = link.text().collect::<String>();
 
-        let time = post_element
-            .select(&time_selector)
-            .next()
-            .map(|e| e.inner_html())
-            .unwrap_or_default();
+                    if text.contains("comment") || text == "discuss" {
+                        comments = if text == "discuss" {
+                            Some(0)
+                        } else {
+                            text.split_whitespace()
+                                .next()
+                                .and_then(|s| s.parse::<u32>().ok())
+                        };
+                        break;
+                    }
+                }
+            };
+        }
 
-        let post = Post {
+        posts.push(Post {
             title,
-            url: Some(url),
-            points: Some(points),
-            comments: Some(comments),
-            author: Some(author),
-            time: Some(time),
-        };
-
-        posts.push(post);
+            url,
+            points,
+            comments,
+            author,
+            time,
+        });
     }
 
-    return Ok(posts);
+    Ok(posts)
 }
