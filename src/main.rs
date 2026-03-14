@@ -8,8 +8,10 @@ use anyhow::Result;
 async fn main() -> Result<()> {
     let html = scraper::fetch_page("https://news.ycombinator.com/").await?;
 
-    println!("Fetched {} bytes", html.len());
-    println!("First 500 chars:\n{}\n", &html[..500.min(html.len())]);
+    // println!("Fetched {} bytes", html.len());
+    // println!("First 500 chars:\n{}\n", &html[..500.min(html.len())]);
+
+    parser::debug_parse(&html);
 
     let posts = parser::parse_posts(&html)?;
 
