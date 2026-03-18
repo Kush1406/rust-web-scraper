@@ -1,31 +1,151 @@
 title,url,points,comments,author,time
-1M context is now generally available for Opus 4.6 and Sonnet 4.6,https://claude.com/blog/1m-context-ga,114,25,meetpateltech,1 hour ago
-I Found 39 Algolia Admin Keys Exposed Across Open Source Documentation Sites,https://benzimmermann.dev/blog/algolia-docsearch-admin-keys,64,18,kernelrocks,2 hours ago
-Can I run AI locally?,https://www.canirun.ai/,899,236,ricardbejarano,12 hours ago
-Show HN: Channel Surfer – Watch YouTube like it’s cable TV,https://channelsurfer.tv,396,136,kilroy123,8 hours ago
-Mouser: An open source alternative to Logi-Plus mouse software,https://github.com/TomBadash/MouseControl,180,57,avionics-guy,6 hours ago
-Qatar helium shutdown puts chip supply chain on a two-week clock,https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock,402,379,johnbarron,12 hours ago
-Hammerspoon,https://github.com/Hammerspoon/hammerspoon,194,75,tosh,6 hours ago
-Coding My Handwriting,https://www.amygoodchild.com/blog/cursive-handwriting-in-javascript,11,0,bwoah,1 hour ago
-OpenTelemetry for Rust Developers,https://signoz.io/blog/opentelemetry-rust/,22,3,dhruv_ahuja,2 hours ago
-Parallels confirms MacBook Neo can run Windows in a virtual machine,https://www.macrumors.com/2026/03/13/macbook-neo-runs-windows-11-vm/,183,242,tosh,10 hours ago
-"Human Rights Watch says drone strikes in Haiti have killed nearly 1,250 people",https://haitiantimes.com/2026/03/11/hrw-condemns-haiti-drone-strikes-killing-children/,110,49,e12e,2 hours ago
-New 'negative light' technology hides data transfers in plain sight,https://www.unsw.edu.au/newsroom/news/2026/03/New-negative-light-technology-hides-data-transfers-in-plain-sight,56,38,wjSgoWPm5bWAhXB,5 hours ago
-TUI Studio – visual terminal UI design tool,https://tui.studio/,544,272,mipselaer,14 hours ago
-Elon Musk pushes out more xAI founders as AI coding effort falters,https://www.ft.com/content/e5fbc6c2-d5a6-4b97-a105-6a96ea849de5,302,430,merksittich,6 hours ago
-Our Experience with I-Ready,https://moultano.wordpress.com/2026/03/12/our-experience-with-i-ready/,5,1,barry-cotter,34 minutes ago
-Using Thunderbird for RSS,https://rubenerd.com/using-thunderbird-for-rss/,63,8,ingve,7 hours ago
-"I beg you to follow Crocker's Rules, even if you will be rude to me",https://lr0.org/blog/p/crocker/,20,32,ghd_,1 hour ago
-MetaGenesis Core – offline verification for computational claims,https://www.metagenesis-core.dev/,11,6,Lama9901,2 hours ago
-Stanford researchers report first recording of a blue whale's heart rate (2019),https://news.stanford.edu/stories/2019/11/first-ever-recording-blue-whales-heart-rate,47,34,eatonphil,5 hours ago
-Exploring JEPA for real-time speech translation,https://www.startpinch.com/research/en/jepa-encoder-translation/,27,6,christiansafka,4 hours ago
-Lost Doctor Who Episodes Found,https://www.bbc.co.uk/news/articles/c4g7kwq1k11o,213,71,edent,15 hours ago
-Show HN: Context Gateway – Compress agent context before it hits the LLM,https://github.com/Compresr-ai/Context-Gateway,61,43,ivzak,7 hours ago
-Bucketsquatting is finally dead,https://onecloudplease.com/blog/bucketsquatting-is-finally-dead,306,160,boyter,16 hours ago
-Your phone is an entire computer,https://medhir.com/blog/your-phone-is-an-entire-computer,232,231,medhir,7 hours ago
-Source code of Swedish e-government services has been leaked,https://darkwebinformer.com/full-source-code-of-swedens-e-government-platform-leaked-from-compromised-cgi-sverige-infrastructure/,200,193,tavro,15 hours ago
-Launch HN: Spine Swarm (YC S23) – AI agents that collaborate on a visual canvas,https://www.getspine.ai/,84,65,a24venka,11 hours ago
-Launch HN: Captain (YC W26) – Automated RAG for Files,https://www.runcaptain.com/,45,24,CMLewis,9 hours ago
-"The Wyden Siren Goes Off Again: We'll Be ""Stunned"" by NSA Under Section 702",https://www.techdirt.com/2026/03/12/the-wyden-siren-goes-off-again-well-be-stunned-by-what-the-nsa-is-doing-under-section-702/,353,104,cf100clunk,8 hours ago
-John Carmack about open source and anti-AI activists,https://twitter.com/id_aa_carmack/status/2032460578669691171,218,322,tzury,7 hours ago
-"Meta Platforms: Lobbying, dark money, and the App Store Accountability Act",https://github.com/upper-up/meta-lobbying-and-other-findings,1149,479,shaicoleman,14 hours ago
+US SEC preparing to scrap quarterly reporting requirement,https://www.reuters.com/business/finance/us-sec-preparing-eliminate-quarterly-reporting-requirement-wsj-says-2026-03-16/,257,121,djoldman,2 hours ago
+Leanstral: Open-source agent for trustworthy coding and formal proof engineering,https://mistral.ai/news/leanstral,306,57,Poudlardo,5 hours ago
+Meta’s renewed commitment to jemalloc,https://engineering.fb.com/2026/03/02/data-infrastructure/investing-in-infrastructure-metas-renewed-commitment-to-jemalloc/,344,142,hahahacorn,8 hours ago
+US commercial insurers pay 254% of Medicare for the same hospital procedures,https://github.com/rexrodeo/american-healthcare-conundrum,237,171,rexroad,8 hours ago
+The “small web” is bigger than you might think,https://kevinboone.me/small_web_is_big.html,317,135,speckx,8 hours ago
+"In space, no one can hear you kernel panic",https://increment.com/software-architecture/in-space-no-one-can-hear-you-kernel-panic/,27,2,p0u4a,3 hours ago
+My Journey to a reliable and enjoyable locally hosted voice assistant (2025),https://community.home-assistant.io/t/my-journey-to-a-reliable-and-enjoyable-locally-hosted-voice-assistant/944860,319,97,Vaslo,13 hours ago
+Show HN: Thermal Receipt Printers – Markdown and Web UI,https://github.com/sadreck/ThermalMarky,34,10,howlett,4 hours ago
+Show HN: Oxyde – Pydantic-native async ORM with a Rust core,https://github.com/mr-fatalyst/oxyde,64,37,mr_Fatalyst,5 hours ago
+Canopy Height Maps v2,https://ai.meta.com/blog/world-resources-institute-dino-canopy-height-maps-v2/?_fb_noscript=1,10,1,tzury,2 hours ago
+Why I love FreeBSD,https://it-notes.dragas.net/2026/03/16/why-i-love-freebsd/,355,166,enz,14 hours ago
+Starlink Mini as a failover,https://www.jackpearce.co.uk/posts/starlink-failover/,200,169,jkpe,14 hours ago
+Language Model Teams as Distrbuted Systems,https://arxiv.org/abs/2603.12229,71,32,jryio,8 hours ago
+AirPods Max 2,https://www.apple.com/airpods-max/,214,386,ssijak,12 hours ago
+Polymarket gamblers threaten to kill me over Iran missile story,https://www.timesofisrael.com/gamblers-trying-to-win-a-bet-on-polymarket-are-vowing-to-kill-me-if-i-dont-rewrite-an-iran-missile-story/,1354,884,defly,14 hours ago
+AnswerThis (YC F25) Is Hiring,https://www.ycombinator.com/companies/answerthis/jobs/CNdatw5-founding-engineering-lead,,,,5 hours ago
+Launch HN: Voygr (YC W26) – A better maps API for agents and AI apps,item?id=47401042,65,48,ymarkov,9 hours ago
+Apideck CLI – An AI-agent interface with much lower context consumption than MCP,https://www.apideck.com/blog/mcp-server-eating-context-window-cli-alternative,122,106,gertjandewilde,10 hours ago
+Home Assistant waters my plants,https://finnian.io/blog/home-assistant-waters-my-plants/,252,131,finniananderson,19 hours ago
+On The Need For Understanding,https://blog.information-superhighway.net/on-the-need-for-understanding,86,37,zdw,9 hours ago
+The bureaucracy blocking the chance at a cure,https://www.writingruxandrabio.com/p/the-bureaucracy-blocking-the-chance,93,118,item,11 hours ago
+Corruption erodes social trust more in democracies than in autocracies,https://www.frontiersin.org/journals/political-science/articles/10.3389/fpos.2026.1779810/full,664,346,PaulHoule,14 hours ago
+Show HN: Claude Code skills that build complete Godot games,https://github.com/htdt/godogen,169,105,htdt,10 hours ago
+"Lies I was told about collaborative editing, Part 2: Why we don't use Yjs",https://www.moment.dev/blog/lies-i-was-told-pt-2,203,100,antics,18 hours ago
+"Show HN: GitClassic.com, a fast, lightweight GitHub thin client (pages <14KB)",https://gitclassic.com,4,2,heythisischris,1 hour ago
+Kona EV Hacking,http://techno-fandom.org/~hobbit/cars/ev/,120,68,AnnikaL,18 hours ago
+Lazycut: A simple terminal video trimmer using FFmpeg,https://github.com/emin-ozata/lazycut,156,50,masterpos,14 hours ago
+"Nvidia Launches Vera CPU, Purpose-Built for Agentic AI",https://nvidianews.nvidia.com/news/nvidia-launches-vera-cpu-purpose-built-for-agentic-ai,130,79,lewismenelaws,6 hours ago
+Cert Authorities Check for DNSSEC from Today,https://www.grepular.com/Cert_Authorities_Check_for_DNSSEC_From_Today,88,209,zdw,10 hours ago
+US Job Market Visualizer,https://karpathy.ai/jobs/,419,316,andygcook,11 hours ago
+MoD sources warn Palantir role at heart of government is threat to UK security,https://www.thenerve.news/p/palantir-technologies-uk-mod-sources-government-data-insights-security-state-secrets,592,242,vrganj,14 hours ago
+Comparing Python Type Checkers: Typing Spec Conformance,https://pyrefly.org/blog/typing-conformance-comparison/,97,38,ocamoss,13 hours ago
+Launch HN: Chamber (YC W26) – An AI Teammate for GPU Infrastructure,https://www.usechamber.io/,21,5,jshen96,9 hours ago
+"Bill C-22, the Lawful Access Act: Dangerous backdoor surveillance risks remain",https://www.michaelgeist.ca/2026/03/a-tale-of-two-bills-lawful-access-returns-with-changes-to-warrantless-access-but-dangerous-backdoor-surveillance-risks-remains/,976,316,opengrass,1 day ago
+Speed at the cost of quality: Study of use of Cursor AI in open source projects (2025),https://arxiv.org/abs/2511.04427,96,50,wek,9 hours ago
+Even faster asin() was staring right at me,https://16bpp.net/blog/post/even-faster-asin-was-staring-right-at-me/,101,48,def-pri-pub,13 hours ago
+"Palestinian boy, 12, describes how Israeli forces killed his family in car",https://www.bbc.com/news/articles/c70n2x7p22do,954,284,tartoran,7 hours ago
+"MM120, a pharmaceutical form of LSD, shown to reduce anxiety symptoms (2025)",https://www.sciencedaily.com/releases/2025/10/251027023816.htm,80,80,carlos-menezes,14 hours ago
+Event Publisher enables event integration between Keycloak and OpenFGA,https://github.com/embesozzi/keycloak-openfga-event-publisher,27,5,mooreds,11 hours ago
+Six ingenious ways how Canon DSLRs used to illuminate their autofocus points,https://exclusivearchitecture.com/03-technical-articles-CSDS-00-table-of-contents.html,122,44,ExAr,19 hours ago
+Human Organ Atlas,https://human-organ-atlas.esrf.fr/,47,3,giuliomagnifico,12 hours ago
+Reviewing Large Changes with Jujutsu,https://ben.gesoff.uk/posts/reviewing-large-changes-with-jj/,99,11,bengesoff,19 hours ago
+Electric motor scaling laws and inertia in robot actuators,https://robot-daycare.com/posts/actuation_series_1/,164,34,o4c,23 hours ago
+Where does engineering go? Retreat findings and insights [pdf],https://www.thoughtworks.com/content/dam/thoughtworks/documents/report/tw_future%20_of_software_development_retreat_%20key_takeaways.pdf,77,28,danebalia,8 hours ago
+What every computer scientist should know about floating-point arithmetic (1991) [pdf],https://www.itu.dk/~sestoft/bachelor/IEEE754_article.pdf,122,52,jbarrow,23 hours ago
+The Linux Programming Interface as a university course text,https://man7.org/tlpi/academic/index.html,170,37,teleforce,1 day ago
+'Pokémon Go' players unknowingly trained delivery robots with 30B images,https://www.popsci.com/technology/pokemon-go-delivery-robots-crowdsourcing/,178,90,wslh,13 hours ago
+Why I may ‘hire’ AI instead of a graduate student,https://www.science.org/content/article/why-i-may-hire-ai-instead-graduate-student,76,76,doener,17 hours ago
+Mistral Small 4,https://mistral.ai/news/mistral-small-4,42,2,pember,5 hours ago
+Bringing Semiconductors to Kazakhstan,https://www.siliconimist.com/p/bringing-semiconductors-to-kazakhstan,46,8,johncole,14 hours ago
+Show HN: Hecate – Call an AI from Signal,https://github.com/rhodey/hecate,15,2,rhodey,8 hours ago
+Analysis of Endocrine Disruptors and Hazardous Additives in Headphones,https://arnika.org/en/publications/the-sound-of-contamination,9,0,shaicoleman,3 hours ago
+How I write software with LLMs,https://www.stavros.io/posts/how-i-write-software-with-llms/,479,469,indigodaddy,1 day ago
+"Cuba's national electric grid collapses, leaving millions without power",https://www.reuters.com/business/energy/cubas-national-electric-grid-collapses-says-grid-operator-2026-03-16/,45,18,geox,6 hours ago
+The emergence of print-on-demand Amazon paperback books,https://www.alexerhardt.com/en/enshittification-amazon-paperback-books/,235,173,aerhardt,1 day ago
+Methods in Languages for Systems Programming (2023),https://blog.xoria.org/methods/,16,5,surprisetalk,9 hours ago
+The 49MB web page,https://thatshubham.com/blog/news-audit,780,349,kermatt,1 day ago
+Why Are Viral Capsids Icosahedral?,https://www.asimov.press/p/viral-capsids,76,26,surprisetalk,17 hours ago
+DOJ to Allow Hiring of US Prosecutors Straight Out of Law School,https://news.bloomberglaw.com/us-law-week/doj-to-allow-hiring-of-us-prosecutors-straight-out-of-law-school,17,9,petethomas,3 hours ago
+The future of Amazon coders is the present of Amazon warehouse workers,https://pluralistic.net/2025/03/13/electronic-whipping/,27,5,martin-t,45 minutes ago
+"FFmpeg 8.1 ""Hoare"" has been released",https://ffmpeg.org/download.html#release_8.1,14,0,jbk,3 hours ago
+Ask HN: What is it like being in a CS major program these days?,item?id=47397190,166,169,tathagatadg,15 hours ago
+Chrome DevTools MCP (2025),https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session,579,231,xnx,1 day ago
+Stop Sloppypasta,https://stopsloppypasta.ai/,618,243,namnnumbr,1 day ago
+Autoresearch Hub,http://autoresearchhub.com/,70,25,EvgeniyZh,15 hours ago
+LLM Architecture Gallery,https://sebastianraschka.com/llm-architecture-gallery/,550,42,tzury,1 day ago
+Apple Exclaves and the Secure Design of the Neo's On-Screen Camera Indicator,https://daringfireball.net/2026/03/apple_enclaves_neo_camera_indicator,29,6,JumpCrisscross,6 hours ago
+Show HN: Sprinklz.io – An RSS reader with powerful algorithmic controls,https://sprinklz.io,11,3,sammy0910,12 hours ago
+The Accidental Room (2018),https://99percentinvisible.org/episode/the-accidental-room/,60,6,blewboarwastake,21 hours ago
+"JetBrains is shutting down ""Code With Me"" in all its IDEs",https://www.neowin.net/news/jetbrains-is-shutting-down-this-neat-little-feature-in-its-ides/,19,4,bundie,4 hours ago
+A new Bigfoot documentary helps explain our conspiracy-minded era,https://www.msn.com/en-us/news/us/a-new-bigfoot-documentary-helps-explain-our-conspiracy-minded-era/ar-AA1Yv6px,85,95,zdw,1 day ago
+Bandit: A 32bit baremetal computer that runs Color Forth [video],https://www.youtube.com/watch?v=HK0uAKkt0AE,92,10,surprisetalk,1 day ago
+How far can you go with IX Route Servers only?,https://blog.benjojo.co.uk/post/how-far-can-you-get-with-ix-route-servers,58,5,ingve,21 hours ago
+SpiceCrypt: A Python library for decrypting LTspice encrypted model files,https://github.com/jtsylve/spice-crypt,56,16,luu,1 day ago
+Apache Iggy: thread-per-core with io_uring in Rust,https://iggy.apache.org/blogs/2026/02/27/thread-per-core-io_uring/,29,2,ikatson,17 hours ago
+Hollywood Enters Oscars Weekend in Existential Crisis,https://www.theculturenewspaper.com/hollywood-enters-oscars-weekend-in-existential-crisis/,159,526,RickJWagner,1 day ago
+Cannabinoids remove plaque-forming Alzheimer's proteins from brain cells (2016),https://www.salk.edu/news-release/cannabinoids-remove-plaque-forming-alzheimers-proteins-from-brain-cells/,163,107,anjel,1 day ago
+LLMs can be exhausting,https://tomjohnell.com/llms-can-be-absolutely-exhausting/,324,203,tjohnell,1 day ago
+Nvidia Announces NemoClaw for the OpenClaw Community,https://nvidianews.nvidia.com/news/nvidia-announces-nemoclaw,5,1,thoughtpeddler,3 hours ago
+Show HN: Pincer – Twitter/X for bots. No humans allowed,https://pincer.wtf,5,3,johnpolacek,3 hours ago
+Show HN: Signet – Autonomous wildfire tracking from satellite and weather data,https://signet.watch,119,31,mapldx,1 day ago
+"Show HN: GDSL – 800 line kernel: Lisp subset in 500, C subset in 1300",https://firthemouse.github.io/,84,20,FirTheMouse,1 day ago
+A Linux distribution designed to eliminate single points of failure,https://stagex.tools/,9,0,birdculture,3 hours ago
+"In Memoriam: John W. Addison, my PhD advisor",https://billwadge.com/2026/03/15/in-memoriam-john-w-addison-jr-my-phd-advisor/,135,6,herodotus,1 day ago
+MCP is dead; long live MCP,https://chrlschn.dev/blog/2026/03/mcp-is-dead-long-live-mcp/,284,200,CharlieDigital,2 days ago
+"IBM, sonic delay lines, and the history of the 80×24 display (2019)",https://www.righto.com/2019/11/ibm-sonic-delay-lines-and-history-of.html,93,45,rbanffy,1 day ago
+Nasdaq's Shame,https://keubiko.substack.com/p/nasdaqs-shame,403,154,imichael,1 day ago
+Amazon finds out AI programming isn't all it's cracked up to be,https://www.computerworld.com/article/4145573/amazon-finds-out-ai-programming-isnt-all-its-cracked-up-to-be.html,19,1,CrankyBear,5 hours ago
+Tesla's Terafab chip fab ambitions ignore its lack of semiconductor experience,https://electrek.co/2026/03/16/teslas-terafab-chip-fab-ambitions-ignore-its-total-lack-of-semiconductor-experience/,10,10,breve,4 hours ago
+Ask HN: How is AI-assisted coding going for you professionally?,item?id=47388646,385,578,svara,1 day ago
+ASCII and Unicode quotation marks (2007),https://www.cl.cam.ac.uk/~mgk25/ucs/quotes.html,44,28,exvi,22 hours ago
+Glassworm is back: A new wave of invisible Unicode attacks hits repositories,https://www.aikido.dev/blog/glassworm-returns-unicode-attack-github-npm-vscode,292,186,robinhouston,1 day ago
+Show HN: What if your synthesizer was powered by APL (or a dumb K clone)?,https://octetta.github.io/k-synth/,89,31,octetta,1 day ago
+The Danger of Vibe Patriotism in Defense Tech,https://warontherocks.com/2026/03/the-danger-of-vibe-patriotism-in-defense-tech/,20,0,petethomas,8 hours ago
+US judge blocks efforts to reshape childhood vaccine policy,https://www.reuters.com/world/us-judge-blocks-efforts-reshape-childhood-vaccine-policy-2026-03-16/,11,1,kaycebasques,3 hours ago
+Show HN: Hackerbrief – Top posts on Hacker News summarized daily,https://hackerbrief.vercel.app/,63,44,p0u4a,13 hours ago
+U.S. imposes sanctions over North Korean scheme to use remote workers,https://www.cbsnews.com/news/north-korea-us-sanctions-remote-workers-weapons-program/,5,0,rbanffy,3 hours ago
+A Plain Anabaptist Story: The Hutterites,https://ulmer457718.substack.com/p/a-plain-anabaptist-story-the-hutterites,50,14,gaplong,1 day ago
+Police Investigate German Historian for Hitler-Putin Meme,https://reason.com/2026/03/13/police-investigate-german-historian-for-hitler-putin-meme/,23,8,whatisabcdefgh,7 hours ago
+1M context is now generally available for Opus 4.6 and Sonnet 4.6,https://claude.com/blog/1m-context-ga,1208,520,meetpateltech,3 days ago
+Show HN: AgentDiscuss – a place where AI agents discuss products,https://agentdiscuss.com/,9,9,leoooo,9 hours ago
+"NemoClaw, ""Enterprise"" OpenClaw Implementation",https://www.nvidia.com/en-us/ai/nemoclaw/,6,0,ketchup32613,5 hours ago
+Federal Right to Privacy Act – Draft legislation,https://righttoprivacyact.github.io,113,72,pilingual,1 day ago
+$96 3D-printed rocket that recalculates its mid-air trajectory using a $5 sensor,https://github.com/novatic14/MANPADS-System-Launcher-and-Rocket,428,375,ZacnyLos,1 day ago
+"Schemesh – Unix shell and Lisp REPL, now with structured pipelines",https://github.com/cosmos72/schemesh/blob/main/README.md,24,5,cosmos0072,14 hours ago
+385TB video game archive saved by fans; torrents being generated,https://www.tomshardware.com/video-games/retro-gaming/385tb-video-game-archive-saved-by-fans-myrient-has-been-100-percent-backed-up-and-validated-torrents-being-generated,79,5,mikhael,17 hours ago
+"MacBook Neo can be modded to run faster, but you probably shouldn't",https://appleinsider.com/articles/26/03/16/macbook-neo-can-be-modded-to-run-faster-but-you-probably-shouldnt,17,3,gslin,7 hours ago
+A Visual Introduction to Machine Learning (2015),https://r2d3.us/visual-intro-to-machine-learning-part-1/,389,32,vismit2000,1 day ago
+Rack-mount hydroponics,https://sa.lj.am/rack-mount-hydroponics/,348,100,cdrnsf,1 day ago
+What makes Intel Optane stand out (2023),https://blog.zuthof.nl/2023/06/02/what-makes-intel-optane-stand-out/,220,153,walterbell,1 day ago
+Generating All 32-Bit Primes (Part I),https://hnlyman.github.io/pages/prime32_I.html,85,29,hnlyman,1 day ago
+Donut Lab shows solid-state battery pack charging at 100 kW in Verge motorcycle,https://electrek.co/2026/03/16/donut-lab-solid-state-battery-pack-test-verge-motorcycles/,5,0,1970-01-01,10 hours ago
+The Iran war may be about to escalate,https://www.economist.com/middle-east-and-africa/2026/03/15/the-iran-war-may-be-about-to-escalate,18,1,mikhael,22 hours ago
+Things Linux Can Do That Windows Still Can't,https://itsfoss.com/things-linux-can-window-not/,22,20,mikece,11 hours ago
+Human Organ Atlas,https://www.science.org/doi/10.1126/sciadv.adz2240,90,5,bookofjoe,1 day ago
+Type systems are leaky abstractions: the case of Map.take!/2,https://dashbit.co/blog/type-systems-are-leaky-abstractions-map-take,49,27,tosh,1 day ago
+Can I run AI locally?,https://www.canirun.ai/,1487,348,ricardbejarano,3 days ago
+The 100 hour gap between a vibecoded prototype and a working product,https://kanfa.macbudkowski.com/vibecoding-cryptosaurus,261,332,kiwieater,1 day ago
+Cyber-Attacks Against the EU and Its Member States: Council Sanctions,https://www.consilium.europa.eu/en/press/press-releases/2026/03/16/cyber-attacks-against-the-eu-and-its-member-states-council-sanctions-three-entities-and-two-individuals/,8,0,jruohonen,5 hours ago
+Building a blog with Git-crypt for private posts in a public repo,https://thobiasn.dev/posts/a-pragmatic-blog,7,2,thobiasn,17 hours ago
+Learning athletic humanoid tennis skills from imperfect human motion data,https://zzk273.github.io/LATENT/,173,40,danielmorozoff,1 day ago
+Krafton CEO Asked ChatGPT How He Could Avoid Paying Subnautica 2 Dev Bonuses,https://80.lv/articles/krafton-ceo-reportedly-asked-chatgpt-how-he-could-avoid-paying-subnautica-2-developers-bonuses,14,0,vinyl7,7 hours ago
+Mathematics Distillation Challenge – Equational Theories,https://terrytao.wordpress.com/2026/03/13/mathematics-distillation-challenge-equational-theories/,109,5,picafrost,2 days ago
+"Animated 'Firefly' Reboot in Development from Nathan Fillion, 20th TV",https://www.hollywoodreporter.com/tv/tv-news/animated-firefly-reboot-in-development-nathan-fillion-1236533089/,241,93,Amorymeltzer,1 day ago
+How kernel anti-cheats work,https://s4dbrd.github.io/posts/how-kernel-anti-cheats-work/,358,317,davikr,2 days ago
+"OpenJarvis: Personal AI, on Personal Devices",https://scalingintelligence.stanford.edu/blogs/openjarvis/,19,1,jostylr,1 day ago
+The return-to-the-office trend backfires,https://thehill.com/opinion/technology/5775420-remote-first-productivity-growth/,112,89,penguin_booze,7 hours ago
+Separating the Wayland compositor and window manager,https://isaacfreund.com/blog/river-window-management/,329,219,dpassens,1 day ago
+"Allow me to get to know you, mistakes and all",https://sebi.io/posts/2026-03-14-allow-me-to-get-to-know-you-mistakes-and-all/,311,165,sebi_io,2 days ago
+Starlink militarization and its impact on global strategic stability (2023),https://interpret.csis.org/translations/starlink-militarization-and-its-impact-on-global-strategic-stability/,170,244,msuniverse2026,2 days ago
+AI is helping choose targets in Iran war – now it's a target too,https://www.abc.net.au/news/2026-03-15/iran-war-ai-technology-data-centres/106443004,5,0,breve,4 hours ago
+Badreads,https://www.funnest.world/badreads,10,4,surprisetalk,15 hours ago
+What is agentic engineering?,https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/,155,88,lumpa,1 day ago
+Fedora 44 on the Raspberry Pi 5,https://nullr0ute.com/2026/03/fedora-44-on-the-raspberry-pi-5/,122,39,jandeboevrie,2 days ago
+Building a Shell,https://healeycodes.com/building-a-shell,8,1,healeycodes,12 hours ago
+Hostile Volume – A game about adjusting volume with intentionally bad UI,https://hostilevolume.com/,117,83,Velocifyer,2 days ago
+Tree Search Distillation for Language Models Using PPO,https://ayushtambde.com/blog/tree-search-distillation-for-language-models-using-ppo/,87,10,at2005,2 days ago
+Megadev: A Development Kit for the Sega Mega Drive and Mega CD Hardware,https://github.com/drojaazu/megadev,138,11,XzetaU8,2 days ago
+FSF Threatens Anthropic over Infringed Copyright: Share Your LLMs Freel,https://www.fsf.org/blogs/licensing/2026-anthropic-settlement,6,0,m463,6 hours ago
+Library of Short Stories,https://www.libraryofshortstories.com/,116,5,debo_,2 days ago
+Coding after coders: The end of computer programming as we know it?,https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html?smid=url-share,226,434,angst,3 days ago
+Ur-Scheme: A GPL self-hosting compiler from a subset of Scheme to x86 asm (2008),http://canonical.org/~kragen/sw/urscheme/,17,1,QuadmasterXLII,13 hours ago
+"How to read books again, backed by neuroscience",https://www.fastcompany.com/91502134/cant-read-books-anymore-neuroscience-has-a-5-step-plan-to-get-your-focus-back,5,0,speckx,7 hours ago
+"Obsession with growth is destroying nature, 150 countries warn",https://www.politico.eu/article/obsession-with-growth-destroying-nature-150-countries-warn/,260,200,speckx,13 hours ago
+Clock-accurate FPGA replacement for NES PPU,https://github.com/andkorzh/PPU-LITE,14,8,zdw,23 hours ago
+An experiment to use GitHub Actions as a control plane for a PaaS,https://towlion.github.io,21,13,baijum,1 day ago
+Demos of 2025 from the Demoscene,https://laurent.le-brun.eu/blog/the-best-demos-of-2025-from-the-demoscene,21,3,laurentlb,1 day ago
+Qatar helium shutdown puts chip supply chain on a two-week clock,https://www.tomshardware.com/tech-industry/qatar-helium-shutdown-puts-chip-supply-chain-on-a-two-week-clock,697,630,johnbarron,3 days ago
+Which jobs are most vulnerable to AI?,https://www.washingtonpost.com/technology/interactive/2026/jobs-most-affected-ai-automation/,17,23,zh3,10 hours ago
+Tell HN: AI tools are making me lose interest in CS fundamentals,item?id=47394291,87,83,Tim25659,1 day ago
