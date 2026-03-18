@@ -1,6 +1,7 @@
 mod models;
 mod parser;
 mod rate_limiter;
+mod retry;
 mod scraper;
 mod writer;
 
@@ -33,6 +34,7 @@ async fn main() -> Result<()> {
     pb.set_style(
         ProgressStyle::default_bar()
             .template("[{elapsed_precise}] {bar:40.cyan/blue} {pos}/{len} ({percent}%) - {msg}")
+            // .template("{spinner:.green} {msg}")
             .unwrap()
             .progress_chars("=>-"),
     );
