@@ -5,7 +5,9 @@ mod scraper;
 mod writer;
 
 use anyhow::Result;
+use indicatif::{ProgressBar, ProgressStyle};
 use rate_limiter::RateLimiter;
+use std::sync::Arc;
 use std::time::Instant;
 
 #[tokio::main]
@@ -26,6 +28,15 @@ async fn main() -> Result<()> {
         urls.len()
     );
 
+    // Create progress bar
+    let pb = ProgressBar::new(urls.len() as u64);
+    pb.set_style(
+        ProgressStyle::default_bar()
+            .template("[{elapsed_precise}] {bar:40.cyan/blue} {pos}/{len} ({percent}%) - {msg}")
+            .unwrap()
+            .progress_chars("=>-"),
+    );
+
     // Create rate limiter - max 2 concurrent requests
     let rate_limiter = RateLimiter::new(2);
     let start = Instant::now();
@@ -36,20 +47,28 @@ async fn main() -> Result<()> {
     for (i, url) in urls.into_iter().enumerate() {
         let url = url.clone();
         let limiter = rate_limiter.clone();
+        let progress = pb.clone();
 
         let task = tokio::spawn(async move {
-            println!("[Page {}] Waiting for the rate limiter...", i + 1);
+            progress.set_message(format!("Page {} Waiting...", i + 1));
 
             // Use rate limiter to control concurrency
             let result = limiter
                 .execute(|| async {
-                    println!("[Page {}] Starting to fetch: {}", i + 1, url);
+                    progress.set_message(format!("Page {} Fetching...", i + 1));
                     let html = scraper::fetch_page(&url).await?;
                     let posts = parser::parse_posts(&html)?;
-                    println!("[Page {}] Completed - found {} posts", i + 1, posts.len());
+                    progress.set_message(format!(
+                        "Page {} Completed - found {} posts",
+                        i + 1,
+                        posts.len()
+                    ));
                     Ok::<Vec<models::Post>, anyhow::Error>(posts)
                 })
                 .await;
+
+            // Update progress bar after completion
+            progress.inc(1);
 
             result
         });
@@ -57,9 +76,10 @@ async fn main() -> Result<()> {
         tasks.push(task);
     }
 
-    // Wait for all tasks to complete
-    println!("\nWaiting for all pages to complete...");
     let results = futures::future::join_all(tasks).await;
+
+    // Finish the progress bar
+    pb.finish_with_message("Scraping Complete!");
 
     // Collect all posts
     let mut all_posts = Vec::new();
