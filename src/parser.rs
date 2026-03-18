@@ -37,24 +37,6 @@ pub fn parse_posts(html: &str) -> Result<Vec<Post>> {
 
         let metadata_row = all_rows.get(i + 1);
 
-        // DEBUG: Print what we're looking at
-        println!("\n--- Post at index {} ---", i);
-        println!("Post class: {}", class);
-        println!("Title: {}", title);
-
-        if let Some(meta_row) = metadata_row {
-            let meta_class = meta_row.value().attr("class").unwrap_or("(no class)");
-            println!("Next row class: {}", meta_class);
-
-            // Print the HTML of the next row
-            println!(
-                "Next row HTML preview: {}",
-                &meta_row.html()[..200.min(meta_row.html().len())]
-            );
-        } else {
-            println!("No next row!");
-        }
-
         let mut points = None;
         let mut comments = None;
         let mut author = None;
