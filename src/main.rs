@@ -8,7 +8,6 @@ mod writer;
 use anyhow::Result;
 use indicatif::{ProgressBar, ProgressStyle};
 use rate_limiter::RateLimiter;
-use std::sync::Arc;
 use std::time::Instant;
 
 #[tokio::main]
@@ -58,7 +57,7 @@ async fn main() -> Result<()> {
             let result = limiter
                 .execute(|| async {
                     progress.set_message(format!("Page {} Fetching...", i + 1));
-                    let html = scraper::fetch_page(&url).await?;
+                    let html = retry::fetch_with_retry(&url, 3).await?;
                     let posts = parser::parse_posts(&html)?;
                     progress.set_message(format!(
                         "Page {} Completed - found {} posts",
