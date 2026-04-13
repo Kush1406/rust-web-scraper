@@ -1,13 +1,13 @@
 mod models;
 mod parser;
 mod rate_limiter;
+mod retry;
 mod scraper;
 mod writer;
 
 use anyhow::Result;
 use indicatif::{ProgressBar, ProgressStyle};
 use rate_limiter::RateLimiter;
-use std::sync::Arc;
 use std::time::Instant;
 
 #[tokio::main]
@@ -33,6 +33,7 @@ async fn main() -> Result<()> {
     pb.set_style(
         ProgressStyle::default_bar()
             .template("[{elapsed_precise}] {bar:40.cyan/blue} {pos}/{len} ({percent}%) - {msg}")
+            // .template("{spinner:.green} {msg}")
             .unwrap()
             .progress_chars("=>-"),
     );
@@ -56,7 +57,7 @@ async fn main() -> Result<()> {
             let result = limiter
                 .execute(|| async {
                     progress.set_message(format!("Page {} Fetching...", i + 1));
-                    let html = scraper::fetch_page(&url).await?;
+                    let html = retry::fetch_with_retry(&url, 3).await?;
                     let posts = parser::parse_posts(&html)?;
                     progress.set_message(format!(
                         "Page {} Completed - found {} posts",
